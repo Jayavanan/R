@@ -1,0 +1,103 @@
+*{
+    padding:0%;
+    margin:0%;
+    font-family:sans-serif ;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("slide1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display:flex;
+    align-items: center; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul {
+    display: flex;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 20px;
+}
+
+.name{
+    color: rgb(123, 213, 204);
+    font-size: 40px;
+    font-family: cursive;
+}
+
+span{
+    color: rgb(249, 244, 104);
+    font-family: cursive;
+    font-size: 50px;
+}
+nav ul li a {
+    color: rgb(223, 75, 246);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: rgb(231, 249, 33);
+    transition: 1s;
+}
+
+.btn{
+    background-color: rgb(237, 11, 11);
+    color: rgb(233, 223, 223);
+    font-weight: bold;
+    text-decoration: none; 
+    border-radius: 50px;
+    
+}
+.name2{
+    color: rgb(151, 231, 184);
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+.name3{
+    color: cornsilk;
+    font-size: 35px;
+    font-family: cursive;
+}
+.content{
+    top: 200;
+    left: 100;
+    position: absolute;
+
+}
+.card{
+    width: 280px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    
+    background-position: center;
+    background-size: cover;
+
+}
+.card1{
+    background-image: url(download.jpeg);
+}
+.card2{
+    background-image: url(you-can-help.jpg);
+}
+.card3{
+    background-image: url(images.jpeg);
+}
+.card4{
+    background-image: url(download\ \(1\).jpeg);
+}
