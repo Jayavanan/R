@@ -11,6 +11,7 @@
     background-image: url("slide1.jpg");
     background-size: cover;
     background-position: center;
+    /* text-align: center; */
 }
 
 nav{
